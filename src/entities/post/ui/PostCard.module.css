@@ -1,0 +1,27 @@
+.card {
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 16px 18px;
+  background: #ffffff;
+  margin: 10px;
+}
+
+.card:hover {
+  border-color: #64a44e;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 6px;
+}
+.card:hover .title{
+  color: #64a44e;
+}
+
+.body {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.5;
+}
