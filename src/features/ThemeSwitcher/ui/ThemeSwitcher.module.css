@@ -1,0 +1,21 @@
+.button_dark{
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 16px 18px;
+  background: black;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}
+.button{
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 16px 18px;
+  background: #ffffff;
+  margin: 10px;
+  cursor: pointer;
+}
+.button:hover, .button_dark:hover {
+  border-color: #64a44e;
+  color: #64a44e;
+}

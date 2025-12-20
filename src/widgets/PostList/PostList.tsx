@@ -9,9 +9,11 @@ type Props = {
 export function PostList({posts} : Props){
   return (
     <section className={styles.list}>
+      <>
       {posts.map((post) => (
         <PostCard key={post.id} post={post} />
       ))}
+      </>
     </section>
   );
 };
