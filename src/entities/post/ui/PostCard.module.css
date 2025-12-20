@@ -6,17 +6,25 @@
   margin: 10px;
 }
 
-.card:hover {
+.card_dark {
+ border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 16px 18px;
+  background: black;
+  margin: 10px;
+  color: white;
+}
+
+.card:hover, .card_dark:hover {
   border-color: #64a44e;
 }
 
 .title {
   font-size: 16px;
   font-weight: 600;
-  color: #111827;
   margin-bottom: 6px;
 }
-.card:hover .title{
+.card:hover .title, .card_dark:hover .title{
   color: #64a44e;
 }
 

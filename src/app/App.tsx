@@ -1,5 +1,6 @@
 import { MainLayout } from "../shared/layouts/MainLayout";
 import type { Post } from "../entities/post/Post";
+import { ThemeProvider } from '../shared/lib/theme/ThemeContext';
 
 const posts: Post[] = [
   { id: 1, title: "Первый пост", body: "Заглушка" },
@@ -9,7 +10,9 @@ const posts: Post[] = [
 
 function App() {
   return (
+    <ThemeProvider>
     <MainLayout posts={posts}/>
+    </ThemeProvider>
   );
 };
 

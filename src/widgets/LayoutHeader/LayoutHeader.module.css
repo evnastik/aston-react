@@ -6,10 +6,31 @@
 
 .title {
   font-size: 3.2em;
-    line-height: 1.1;
+  line-height: 1.1;
 }
 
 .subtitle {
   font-size: 2.2em;
   color: #6b7280;
+}
+.open_button_dark, .close_button_dark{
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 16px 18px;
+  background: black;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}
+.open_button, .close_button{
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 16px 18px;
+  background: #ffffff;
+  margin: 10px;
+  cursor: pointer;
+}
+.open_button:hover, .button_dark:hover, .close_button:hover, .close_button_dark:hover {
+  border-color: #64a44e;
+  color: #64a44e;
 }
